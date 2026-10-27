@@ -20,7 +20,7 @@ Python 3.10+ được khuyến nghị.
 
 Không cần chạy nếu máy đã cài đặt.
 
-```bash
+```Shell
 python -m venv .venv
 # Windows:
 .venv\Scripts\activate
@@ -29,6 +29,18 @@ source .venv/bin/activate
 
 pip install -r requirements.txt
 streamlit run app.py
+```
+
+## Chạy ứng dụng
+
+```Shell
+streamlit run app.py
+```
+
+Hoặc
+
+```Shell
+python -m streamlit run app.py
 ```
 
 ## Định dạng file
